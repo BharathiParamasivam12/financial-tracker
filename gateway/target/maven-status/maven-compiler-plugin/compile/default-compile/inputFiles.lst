@@ -1,0 +1,10 @@
+/Users/manop/IdeaProjects/financial-tracker/gateway/src/main/java/com/finance/gateway/GatewayApplication.java
+/Users/manop/IdeaProjects/financial-tracker/gateway/src/main/java/com/finance/gateway/config/RestTemplateConfig.java
+/Users/manop/IdeaProjects/financial-tracker/gateway/src/main/java/com/finance/gateway/controller/AuthenticationController.java
+/Users/manop/IdeaProjects/financial-tracker/gateway/src/main/java/com/finance/gateway/model/AuthRequest.java
+/Users/manop/IdeaProjects/financial-tracker/gateway/src/main/java/com/finance/gateway/model/AuthResponse.java
+/Users/manop/IdeaProjects/financial-tracker/gateway/src/main/java/com/finance/gateway/model/RestResponse.java
+/Users/manop/IdeaProjects/financial-tracker/gateway/src/main/java/com/finance/gateway/security/JwtAuth.java
+/Users/manop/IdeaProjects/financial-tracker/gateway/src/main/java/com/finance/gateway/security/JwtAuthenticationFilter.java
+/Users/manop/IdeaProjects/financial-tracker/gateway/src/main/java/com/finance/gateway/security/SecurityConfig.java
+/Users/manop/IdeaProjects/financial-tracker/gateway/src/main/java/com/finance/gateway/util/RestAPIClient.java

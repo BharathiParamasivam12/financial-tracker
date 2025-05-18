@@ -1,0 +1,13 @@
+/Users/manop/IdeaProjects/financial-tracker/user-service/src/main/java/com/finance/user/UserServiceApplication.java
+/Users/manop/IdeaProjects/financial-tracker/user-service/src/main/java/com/finance/user/config/Config.java
+/Users/manop/IdeaProjects/financial-tracker/user-service/src/main/java/com/finance/user/config/GatewayAuthHeaderFilter.java
+/Users/manop/IdeaProjects/financial-tracker/user-service/src/main/java/com/finance/user/controller/UserController.java
+/Users/manop/IdeaProjects/financial-tracker/user-service/src/main/java/com/finance/user/entity/UserEntity.java
+/Users/manop/IdeaProjects/financial-tracker/user-service/src/main/java/com/finance/user/entity/UserInfoEntity.java
+/Users/manop/IdeaProjects/financial-tracker/user-service/src/main/java/com/finance/user/model/User.java
+/Users/manop/IdeaProjects/financial-tracker/user-service/src/main/java/com/finance/user/model/UserInfo.java
+/Users/manop/IdeaProjects/financial-tracker/user-service/src/main/java/com/finance/user/repository/UserInfoRepository.java
+/Users/manop/IdeaProjects/financial-tracker/user-service/src/main/java/com/finance/user/repository/UserRepository.java
+/Users/manop/IdeaProjects/financial-tracker/user-service/src/main/java/com/finance/user/response/ResponseModel.java
+/Users/manop/IdeaProjects/financial-tracker/user-service/src/main/java/com/finance/user/service/UserService.java
+/Users/manop/IdeaProjects/financial-tracker/user-service/src/main/java/com/finance/user/serviceImpl/UserServiceImpl.java
