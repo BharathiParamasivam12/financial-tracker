@@ -35,7 +35,10 @@ public class JwtAuthenticationFilter implements GlobalFilter, Ordered {
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
         ServerHttpRequest request = (ServerHttpRequest) exchange.getRequest();
+        return  chain.filter(exchange);
 
+
+     /**
         if (request.getURI().getPath().contains("/api/auth/login")) {
             return chain.filter(exchange);
         }
@@ -60,6 +63,7 @@ public class JwtAuthenticationFilter implements GlobalFilter, Ordered {
         } catch (JwtException e) {
             return this.onError(exchange, "Invalid JWT Token", HttpStatus.UNAUTHORIZED);
         }
+      **/
     }
 
     private Mono<Void> onError(ServerWebExchange exchange, String err, HttpStatus status) {

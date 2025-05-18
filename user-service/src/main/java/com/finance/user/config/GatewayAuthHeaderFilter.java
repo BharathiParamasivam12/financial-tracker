@@ -14,8 +14,12 @@ import java.io.IOException;
 import java.util.List;
 @Component
 public class GatewayAuthHeaderFilter extends OncePerRequestFilter {
+    @Override
+    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
 
+    }
 
+/**
     private static final List<String> WHITELISTED_PATHS = List.of(
             "/v1/users/register",
             "/actuator"
@@ -43,5 +47,6 @@ public class GatewayAuthHeaderFilter extends OncePerRequestFilter {
             response.sendError(HttpServletResponse.SC_FORBIDDEN, "Only Gateway requests are allowed");
         }
     }
+    **/
 }
 
